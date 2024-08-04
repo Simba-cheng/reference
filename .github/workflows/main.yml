@@ -17,7 +17,7 @@ jobs:
     - name: Checkout forked repo
       uses: actions/checkout@v3
       with:
-        fetch-depth: 0
+        fetch-depth: 0  # 获取完整历史
 
     - name: Configure Git
       run: |
@@ -35,16 +35,20 @@ jobs:
         echo "上游分支最新提交："
         git rev-parse upstream/main
         
+        # 保存当前 HEAD
+        BEFORE_MERGE=$(git rev-parse HEAD)
+        
         # 尝试合并上游更改
         git merge upstream/main --no-edit || true
 
     - name: Check for changes
       run: |
-        if git diff --quiet HEAD@{1} HEAD; then
+        AFTER_MERGE=$(git rev-parse HEAD)
+        if [ "$BEFORE_MERGE" = "$AFTER_MERGE" ]; then
           echo "没有检测到新的更改。"
         else
           echo "检测到以下更改："
-          git diff --name-status HEAD@{1} HEAD
+          git diff --name-status $BEFORE_MERGE $AFTER_MERGE
         fi
 
     - name: Push changes
