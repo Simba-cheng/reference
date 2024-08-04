@@ -11,40 +11,33 @@ on:
 # 定义工作流中的作业
 jobs:
   sync:
-    # 指定作业运行的环境
     runs-on: ubuntu-latest
 
-    # 定义作业的步骤
     steps:
-    # 步骤1：检出代码
     - name: Checkout forked repo
-      uses: actions/checkout@v3  # 使用 GitHub 官方的 checkout action，版本3
+      uses: actions/checkout@v3
       with:
-        fetch-depth: 0  # 获取所有的历史记录，而不是最近的1次提交
+        fetch-depth: 0
 
-    # 步骤2：配置 Git
     - name: Configure Git
       run: |
-        # 设置 Git 用户名为 GitHub Actions 机器人
         git config user.name 'github-actions[bot]'
-        # 设置 Git 邮箱为 GitHub Actions 机器人的邮箱
         git config user.email 'github-actions[bot]@users.noreply.github.com'
 
-    # 步骤3：同步上游仓库的更改
     - name: Sync with upstream
       run: |
-        # 添加原仓库作为远程仓库，命名为 upstream
         git remote add upstream https://github.com/jaywcjlove/reference.git
-        # 从 upstream 获取最新的更改
         git fetch upstream
-        # 将 upstream 的 main 分支合并到当前分支，使用 --no-edit 选项避免打开编辑器
-        git merge upstream/main --no-edit
-        # 将合并后的更改推送到 fork 仓库的 main 分支
-        git push origin main
-
-    # 步骤4：推送更改（如果之前的 git push 失败）
+        git merge upstream/main --no-edit || true
+        
     - name: Push changes
-      uses: ad-m/github-push-action@master  # 使用第三方 action 来推送更改
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}  # 使用 GitHub 自动提供的 token
-        branch: main  # 推送到 main 分支
+      run: |
+        git push origin main || git push --force origin main
+
+    - name: Check for changes
+      run: |
+        if git status | grep -q "Your branch is up to date"; then
+          echo "No changes to push."
+        else
+          echo "Changes were pushed to the repository."
+        fi
