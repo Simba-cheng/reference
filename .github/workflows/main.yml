@@ -28,16 +28,46 @@ jobs:
       run: |
         git remote add upstream https://github.com/jaywcjlove/reference.git
         git fetch upstream
-        git merge upstream/main --no-edit || true
         
+        # 输出当前分支和上游分支的最新提交哈希
+        echo "当前分支最新提交："
+        git rev-parse HEAD
+        echo "上游分支最新提交："
+        git rev-parse upstream/main
+        
+        # 尝试合并上游更改
+        git merge upstream/main --no-edit || true
+
+    - name: Check for changes
+      run: |
+        if git diff --quiet HEAD@{1} HEAD; then
+          echo "没有检测到新的更改。"
+        else
+          echo "检测到以下更改："
+          git diff --name-status HEAD@{1} HEAD
+        fi
+
     - name: Push changes
       run: |
         git push origin main || git push --force origin main
 
-    - name: Check for changes
+    - name: Verify sync
       run: |
-        if git status | grep -q "Your branch is up to date"; then
-          echo "No changes to push."
+        # 再次获取上游更新
+        git fetch upstream
+        
+        # 比较本地主分支和上游主分支
+        LOCAL=$(git rev-parse HEAD)
+        UPSTREAM=$(git rev-parse upstream/main)
+        
+        if [ "$LOCAL" = "$UPSTREAM" ]; then
+          echo "同步成功：本地分支与上游分支一致。"
         else
-          echo "Changes were pushed to the repository."
+          echo "警告：本地分支与上游分支不一致。"
+          echo "本地分支: $LOCAL"
+          echo "上游分支: $UPSTREAM"
         fi
+        
+        # 显示最近的提交日志
+        echo "最近的提交日志："
+        git log --oneline -n 5
