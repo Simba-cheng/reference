@@ -436,7 +436,7 @@ $ docker volume prune # 清理未使用的卷
 `load`     | 从 tar 存档或 STDIN 加载镜像
 `login`    | 登录到 Docker 注册表
 `logout`   | 从 Docker 注册表中注销
-`logs`     | 获取容器的日志
+<a href="https://docs.docker.com/reference/cli/docker/container/logs/" target="_blank">`logs`</a>     | <a href="https://docs.docker.com/reference/cli/docker/container/logs/" target="_blank">获取容器的日志</a>
 `pause`    | 暂停一个或多个容器内的所有进程
 `port`     | 列出容器的端口映射或特定映射
 `ps`       | 列出容器
