@@ -44,20 +44,21 @@ $ docker run -it --rm -p  8001:8080 --name my-nginx nginx
 
 ### 一般命令
 
-| Example                             | Description                                      |
-|-------------------------------------|--------------------------------------------------|
-| `docker ps`                         | 列出正在运行的容器                                  |
-| `docker ps -a`                      | 列出所有容器                                  |
-| `docker ps -s`                      | 列出正在运行的容器 *(带 CPU / 内存)*        |
-| `docker images`                     | 列出所有镜像                                  |
-| `docker exec -it <container>  bash` | 连接到容器                                  |
-| `docker logs <container>`           | 显示容器的控制台日志                                  |
-| `docker stop <container>`           | 停止容器                                  |
-| `docker restart <container>`        | 重启一个容器                                  |
-| `docker rm <container>`             | 移除一个容器                                  |
-| `docker port <container>`           | 显示容器的端口映射                                  |
-| `docker top <container>`            | 列出进程                                  |
-| `docker kill <container>`           | 杀死一个容器                                  |
+| Example                             | Description              |
+|-------------------------------------|--------------------------|
+| `docker ps`                         | 列出正在运行的容器                |
+| `docker ps -a`                      | 列出所有容器                   |
+| `docker ps -s`                      | 列出正在运行的容器 *(带 CPU / 内存)* |
+| `docker images`                     | 列出所有镜像                   |
+| `docker exec -it <container>  bash` | 连接到容器                    |
+| `docker logs <container>`           | 显示容器的控制台日志               |
+| `docker logs <container> > xxx.log` | 将日志输出到文件              |
+| `docker stop <container>`           | 停止容器                     |
+| `docker restart <container>`        | 重启一个容器                   |
+| `docker rm <container>`             | 移除一个容器                   |
+| `docker port <container>`           | 显示容器的端口映射                |
+| `docker top <container>`            | 列出进程                     |
+| `docker kill <container>`           | 杀死一个容器                   |
 
 参数 `<container>` 可以是容器 id 或名称
 
@@ -85,6 +86,7 @@ Docker 容器
 `docker ps`                   | 列出正在运行的容器
 `docker ps -a`                | 列出所有容器
 `docker logs nginx-server`    | 容器日志
+`docker logs nginx-server > xxx.log`    | 保存容器日志到文件
 `docker inspect nginx-server` | 检查容器
 `docker events nginx-server`  | 容器事件
 `docker port nginx-server`    | 公共端口
