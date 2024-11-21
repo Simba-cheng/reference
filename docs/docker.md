@@ -93,6 +93,7 @@ Docker 容器
 `docker top nginx-server`     | 运行进程
 `docker stats nginx-server`   | 容器资源使用
 `docker diff nginx-server`    | 列出对容器所做的更改
+`docker cp {容器ID}:{容器内路径} {宿主机路径}`  | 将文件从容器中copy到外部宿主机
 
 ### 创建容器
 
