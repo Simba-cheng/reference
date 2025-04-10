@@ -350,13 +350,14 @@ jobs:
 <a href="https://github.com/qyl27" title="雨落"><img src="https://avatars.githubusercontent.com/u/53731501?v=4" width="42;" alt="雨落"/></a>
 <a href="https://github.com/MackDing" title="Blossom"><img src="https://avatars.githubusercontent.com/u/19878893?v=4" width="42;" alt="Blossom"/></a>
 <a href="https://github.com/1250422131" title="萌新杰少"><img src="https://avatars.githubusercontent.com/u/52126790?v=4" width="42;" alt="萌新杰少"/></a>
+<a href="https://github.com/richuff" title="richuff"><img src="https://avatars.githubusercontent.com/u/162144087?v=4" width="42;" alt="richuff"/></a>
 <a href="https://github.com/Harris-H" title="Hao He"><img src="https://avatars.githubusercontent.com/u/57698783?v=4" width="42;" alt="Hao He"/></a>
 <a href="https://github.com/LiuYuan-SHU" title="Yuan Liu"><img src="https://avatars.githubusercontent.com/u/96400967?v=4" width="42;" alt="Yuan Liu"/></a>
 <a href="https://github.com/long-910" title="Small Long"><img src="https://avatars.githubusercontent.com/u/7323488?v=4" width="42;" alt="Small Long"/></a>
 <a href="https://github.com/Willxup" title="Will"><img src="https://avatars.githubusercontent.com/u/51990395?v=4" width="42;" alt="Will"/></a>
 <a href="https://github.com/xia0ne" title="YuRuiH"><img src="https://avatars.githubusercontent.com/u/32591223?v=4" width="42;" alt="YuRuiH"/></a>
 <a href="https://github.com/chaos-cn" title="chaos"><img src="https://avatars.githubusercontent.com/u/71205599?v=4" width="42;" alt="chaos"/></a>
-<a href="https://github.com/richuff" title="richuff"><img src="https://avatars.githubusercontent.com/u/162144087?v=4" width="42;" alt="richuff"/></a>
+<a href="https://github.com/QinIndexCode" title="fault"><img src="https://avatars.githubusercontent.com/u/177287013?v=4" width="42;" alt="fault"/></a>
 <a href="https://github.com/wsypower" title="魏"><img src="https://avatars.githubusercontent.com/u/31298317?v=4" width="42;" alt="魏"/></a>
 <a href="https://github.com/buyfakett" title="buyfakett"><img src="https://avatars.githubusercontent.com/u/46560426?v=4" width="42;" alt="buyfakett"/></a>
 <a href="https://github.com/itldg" title="老大哥"><img src="https://avatars.githubusercontent.com/u/13432299?v=4" width="42;" alt="老大哥"/></a>
@@ -379,14 +380,13 @@ jobs:
 <a href="https://github.com/ThanatosXingYu" title="Thanatos"><img src="https://avatars.githubusercontent.com/u/53430376?v=4" width="42;" alt="Thanatos"/></a>
 <a href="https://github.com/XYZscratcher" title="XYZ"><img src="https://avatars.githubusercontent.com/u/108533817?v=4" width="42;" alt="XYZ"/></a>
 <a href="https://github.com/izven" title="Zhang"><img src="https://avatars.githubusercontent.com/u/2149051?v=4" width="42;" alt="Zhang"/></a>
-<a href="https://github.com/findnr" title="findnr"><img src="https://avatars.githubusercontent.com/u/3909023?v=4" width="42;" alt="findnr"/></a>
 <a href="https://github.com/greyhao" title="greyhao"><img src="https://avatars.githubusercontent.com/u/107107440?v=4" width="42;" alt="greyhao"/></a>
 <a href="https://github.com/infanx" title="infanx"><img src="https://avatars.githubusercontent.com/u/65985757?v=4" width="42;" alt="infanx"/></a>
 <a href="https://github.com/hweining" title="hweining"><img src="https://avatars.githubusercontent.com/u/8973985?v=4" width="42;" alt="hweining"/></a>
 <a href="https://github.com/icer233" title="icer"><img src="https://avatars.githubusercontent.com/u/74440627?v=4" width="42;" alt="icer"/></a>
 <a href="https://github.com/auroraslot" title="irony"><img src="https://avatars.githubusercontent.com/u/48817882?v=4" width="42;" alt="irony"/></a>
 <a href="https://github.com/jlchen5" title="J.Chen"><img src="https://avatars.githubusercontent.com/u/61578993?v=4" width="42;" alt="J.Chen"/></a>
-<a href="https://github.com/jldxpm" title="jldxpm"><img src="https://avatars.githubusercontent.com/u/128905630?v=4" width="42;" alt="jldxpm"/></a>
+<a href="https://github.com/jldxpm" title="jldxjldx"><img src="https://avatars.githubusercontent.com/u/128905630?v=4" width="42;" alt="jldxjldx"/></a>
 <a href="https://github.com/joyfully-W" title="joyfully-W"><img src="https://avatars.githubusercontent.com/u/32212924?v=4" width="42;" alt="joyfully-W"/></a>
 <a href="https://github.com/jqzhao7" title="jqzhao"><img src="https://avatars.githubusercontent.com/u/54694535?v=4" width="42;" alt="jqzhao"/></a>
 <a href="https://github.com/jussker" title="jussker"><img src="https://avatars.githubusercontent.com/u/33953356?v=4" width="42;" alt="jussker"/></a>
