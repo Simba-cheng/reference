@@ -13,7 +13,7 @@ Quick Reference
 [![Quick Reference](https://user-images.githubusercontent.com/1680273/201931931-d8559417-0a15-46af-a009-ec1e56e5b778.png)](https://jaywcjlove.github.io/reference)
 <!--rehype:ignore:end-->
 
-为了方便开发人员查阅技术栈，分享这份快速参考备忘清单【速查表】。这是英文版 [Reference](https://github.com/Randy8080/reference) 的中文翻译，旨在帮助自己更好地使用相关技术。如果您有自己的清单，也欢迎提供，我会抽时间搬运并立刻实现 :)。如果您发现这份备忘单中的内容不合适，可以通过提交 [PR](https://github.com/jaywcjlove/reference/blob/main/CONTRIBUTING.md) 来修复或提供更好的备忘清单，主要面向【中文】用户。以下是一些开源天使提供的备忘清单和快速参考 :)。
+这是一份为中文开发者整理的技术栈速查清单，基于英文版 [Reference](https://github.com/Randy8080/reference) 翻译扩展而来，新增了更多实用内容，旨在提升查阅效率与使用体验。欢迎分享你的清单，我会尽量搬运实现；如发现内容不妥，也可通过提交 [PR](https://github.com/jaywcjlove/reference/blob/main/CONTRIBUTING.md) 进行修复或完善。项目持续更新，欢迎参与贡献！
 
 ## 赞助支持
 <!--rehype:class=home-title-reset-->
@@ -428,7 +428,7 @@ Quick Reference
 <a href="https://github.com/godot42x" title="godot42"><img src="https://avatars.githubusercontent.com/u/79260851?v=4" width="42;" alt="godot42"/></a>
 <a href="https://github.com/gi-b716" title="Gavin"><img src="https://avatars.githubusercontent.com/u/78394473?v=4" width="42;" alt="Gavin"/></a>
 <a href="https://github.com/fjqz177" title="fjqz177"><img src="https://avatars.githubusercontent.com/u/83070583?v=4" width="42;" alt="fjqz177"/></a>
-<a href="https://github.com/fenglielie" title="Shun Li"><img src="https://avatars.githubusercontent.com/u/51266402?v=4" width="42;" alt="Shun Li"/></a>
+<a href="https://github.com/fenglielie" title="fenglielie"><img src="https://avatars.githubusercontent.com/u/51266402?v=4" width="42;" alt="fenglielie"/></a>
 <a href="https://github.com/fakevn" title="fakevn"><img src="https://avatars.githubusercontent.com/u/11464386?v=4" width="42;" alt="fakevn"/></a>
 <a href="https://github.com/emoji-share" title="emoji-share🤪"><img src="https://avatars.githubusercontent.com/u/192275245?v=4" width="42;" alt="emoji-share🤪"/></a>
 <a href="https://github.com/cool9203" title="cool9203"><img src="https://avatars.githubusercontent.com/u/29609607?v=4" width="42;" alt="cool9203"/></a>
@@ -690,12 +690,3 @@ $ open dist/index.html # 在浏览器打开生成 HTML
 
 MIT © [Kenny Wong](https://github.com/jaywcjlove)
 <!--rehype:ignore:end-->
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9MWEWXSDQK"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-9MWEWXSDQK');
-</script>
